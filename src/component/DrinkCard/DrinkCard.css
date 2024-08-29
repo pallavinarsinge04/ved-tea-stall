@@ -1,0 +1,51 @@
+.drink-card{
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0,0.6);
+    cursor: pointer;
+    position: relative;
+
+}
+.drink-card:hover{
+    box-shadow: 0 0 10px  rgb(0, 0, 0,0.3);
+    transition: 0.3s;
+    transform: rotate(-1deg);
+}
+.drink-card-title{
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+}
+
+.drink-card-icon{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    height: 30px;
+}
+.drink-card-img
+{
+    width: 100%;
+    border-radius: 10px;
+    height: 180px;
+    object-fit: cover;
+}
+.drink-card-price
+{
+   font-size:20px ;
+}
+.drink-card-button{
+    background-color: tomato;
+    padding: 5px 20px;
+    border-radius:30px ;
+    border: none;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.drink-card-button:hover{
+    background-color: #f83302;
+}
