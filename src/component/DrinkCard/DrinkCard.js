@@ -1,5 +1,6 @@
 import React  from "react";
 import "./DrinkCard.css"
+import { THEME } from "../../config/data";
 
 function DrinkCard({imgUrl ,title,description,price}){
      
@@ -9,7 +10,7 @@ function DrinkCard({imgUrl ,title,description,price}){
             src={imgUrl} 
             className="drink-card-img"
             alt="drink"/>
-        <h1 className="drink-card-title">{title}</h1>
+        <h1 className="drink-card-title" style={{color:THEME.highlight}}>{title}</h1>
         <p className="drink-card-desc">{description}</p>
         {
             price ?
@@ -18,7 +19,7 @@ function DrinkCard({imgUrl ,title,description,price}){
             </p>
             :"Not Available"
         }
-        <button className="drink-card-button">Add to card</button>
+        <button className="drink-card-button" >Add to card</button>
            </div>
         
     )

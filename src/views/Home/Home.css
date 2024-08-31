@@ -3,3 +3,14 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.main_title
+{
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0 ;
+    color: coral;
+}
+.tagline{
+    text-align: right;
+
+}
